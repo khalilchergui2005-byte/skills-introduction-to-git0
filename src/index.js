@@ -39,8 +39,8 @@ let currentX = 0;
 let currentY = 0;
 let score = 0;
 let highScore = 0;let isPaused = false;
-let dropCounter = 0;
-let dropInterval = 1000;
+let level = 1;
+let patternsCleared = 0;let dropInterval = 1000;
 let lastTime = 0;
 let targetPattern = null;
 
